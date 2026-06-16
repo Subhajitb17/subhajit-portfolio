@@ -1,7 +1,24 @@
+import { HeroSection } from '@/features/hero';
+import { AboutSection } from '@/features/about';
+import { ExperienceSection } from '@/features/experience';
+import { ProjectsSection } from '@/features/projects';
+import { SkillsSection } from '@/features/skills';
+import { ContactSection } from '@/features/contact';
+
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
-      <h1>Subhajit Bokshi</h1>
-    </main>
+    <>
+      <HeroSection />
+
+      <AboutSection />
+
+      <ExperienceSection />
+
+      <ProjectsSection />
+
+      <SkillsSection />
+
+      <ContactSection />
+    </>
   );
 }

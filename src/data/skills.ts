@@ -1,0 +1,18 @@
+export const skills = [
+  'Node.js',
+  'TypeScript',
+  'JavaScript',
+  'Express.js',
+  'Next.js',
+  'React',
+  'MongoDB',
+  'MySQL',
+  'Docker',
+  'Google Cloud Platform',
+  'GitHub Actions',
+  'REST APIs',
+  'JWT Authentication',
+  'CI/CD',
+  'Microservices',
+  'System Design',
+] as const;
